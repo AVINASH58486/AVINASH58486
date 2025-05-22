@@ -1,16 +1,29 @@
-## Hi there 👋
+<DOCTYPE html>
+<html>
+<head>
+<title> swift record </title>
+</head>
+<body>
 
-<!--
-**AVINASH58486/AVINASH58486** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1> Registration form </h1>
 
-Here are some ideas to get you started:
+<form action="/submit" method="post">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<label for="name"> name:</label>
+<input type="text" id="name" name="name"> <br><br>
+
+<label for="age"> age:</label>
+<input type="number" id="age" name="age"> <br><br>
+
+<label for="email"> email:</label>
+<input type="email" id="email" name="email"> <br><br>
+
+<label for="password"> password:</label>
+<input type="password" id="password" name="password"> <br><br>
+
+<label for="dob"> date of birth:</label>
+<input type="date" id="dob" name="dob"><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Submit">
+</form>
